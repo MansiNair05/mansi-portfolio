@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Mansi Nair | Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**MCA Student | Frontend Developer with Full Stack Experience | Aspiring Project Coordinator & Business Analyst**
 
-## Available Scripts
+A personal portfolio website built using **React.js** to showcase my education, technical skills, projects, certifications, internship experience, and professional journey.
 
-In the project directory, you can run:
+## About Me
 
-### `npm start`
+I am an **MCA student** passionate about **Frontend Development** and continuously improving my problem-solving, coding, and software development skills.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I have experience building responsive web applications using **React.js** and integrating backend services, APIs, and databases. Along with development, I am interested in **Project Coordination and Business Analysis**, where I enjoy understanding requirements, organizing workflows, and contributing to effective solutions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This portfolio highlights:
 
-### `npm test`
+- 👩‍💻 About Me
+- 🛠 Technical Skills
+- 🚀 Projects
+- 💼 Internship Experience
+- 📜 Certifications
+- 📄 Resume Download
+- 📩 Contact Form Integration (EmailJS)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+### Frontend
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- React Icons
+- AOS (Animate On Scroll)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Backend & Database Experience
+- REST API Integration
+- Node.js (Basic Experience)
+- MongoDB
+- Backend Connectivity
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Tools
+- Git & GitHub
+- VS Code
+- Postman
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+✨ Responsive Design  
+✨ Modern and Clean UI  
+✨ Smooth Scrolling Navigation  
+✨ Animated Sections using AOS  
+✨ Scroll-to-Top Button  
+✨ Resume Download Option  
+✨ Contact Form Integration with EmailJS  
+✨ SEO Optimized Meta Tags  
+✨ Project Showcase Section  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Projects
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Portfolio Website
+A responsive personal portfolio website developed using React.js to showcase my skills, projects, experience, and achievements.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Full Stack Projects
+- Developed frontend interfaces using React.js
+- Integrated APIs for dynamic data handling
+- Worked with MongoDB for database operations
+- Implemented CRUD functionality and user interactions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Internship Experience
 
-## Learn More
+Details about my internship experience, responsibilities, and technical contributions are included in the portfolio.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Certifications
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+A collection of my completed certifications related to software development and technical skills.
 
-### Code Splitting
+## Live Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Coming Soon 🚀
 
-### Analyzing the Bundle Size
+## Installation & Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Clone the repository:
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/MansiNair05/mansi-portfolio.git
