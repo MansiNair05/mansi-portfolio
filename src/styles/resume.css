@@ -1,0 +1,16 @@
+.resume-section{
+    background:white;
+    text-align:center;
+}
+
+.resume-text{
+    max-width:700px;
+    margin:25px auto 40px;
+    color:#6B7280;
+    line-height:1.8;
+    font-size:18px;
+}
+
+.resume-section .primary-btn{
+    display:inline-block;
+}

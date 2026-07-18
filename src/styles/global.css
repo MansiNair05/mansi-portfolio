@@ -1,0 +1,246 @@
+/* ==========================
+   GLOBAL RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+:root{
+    --primary:#4F7DF3;
+    --primary-light:#EEF4FF;
+
+    --dark:#111827;
+    --text:#6B7280;
+
+    --white:#FFFFFF;
+    --section:#F8FAFC;
+    --border:#E5E7EB;
+
+    --shadow:0 12px 40px rgba(0,0,0,0.08);
+}
+
+/* ==========================
+   BODY
+========================== */
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:var(--section);
+    color:var(--dark);
+    overflow-x:hidden;
+    line-height:1.6;
+}
+
+/* ==========================
+   COMMON ELEMENTS
+========================== */
+
+img{
+    width:100%;
+    max-width:100%;
+    display:block;
+    object-fit:cover;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+button{
+    font-family:inherit;
+    cursor:pointer;
+}
+
+/* ==========================
+   LAYOUT
+========================== */
+
+.container{
+    width:min(1200px,90%);
+    margin:auto;
+}
+
+section{
+    padding:100px 0;
+}
+
+/* ==========================
+   HEADINGS
+========================== */
+
+.small-heading{
+    color:var(--primary);
+    letter-spacing:2px;
+    font-size:14px;
+    font-weight:700;
+    text-transform:uppercase;
+}
+
+.section-title{
+    font-size:52px;
+    color:var(--dark);
+    margin:12px 0 24px;
+    line-height:1.2;
+}
+
+/* ==========================
+   BUTTONS
+========================== */
+
+.primary-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+
+    background:var(--primary);
+    color:white;
+
+    padding:14px 30px;
+
+    border:none;
+    border-radius:999px;
+
+    font-weight:600;
+    transition:all .35s ease;
+
+    box-shadow:0 10px 25px rgba(79,125,243,.25);
+}
+
+.primary-btn:hover{
+    transform:translateY(-4px);
+    box-shadow:0 18px 35px rgba(79,125,243,.35);
+}
+
+.secondary-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+
+    padding:14px 30px;
+
+    border-radius:999px;
+    border:2px solid var(--primary);
+
+    color:var(--primary);
+    background:white;
+
+    font-weight:600;
+    transition:all .35s ease;
+}
+
+.secondary-btn:hover{
+    background:var(--primary);
+    color:white;
+    transform:translateY(-4px);
+}
+
+/* ==========================
+   CARD ANIMATIONS
+========================== */
+
+.skill-card,
+.activity-card,
+.certificate-card,
+.project,
+.education-card,
+.timeline-content,
+.stat-card{
+    transition:all .35s ease;
+    will-change:transform;
+}
+
+.skill-card:hover,
+.activity-card:hover,
+.certificate-card:hover,
+.education-card:hover,
+.timeline-content:hover,
+.stat-card:hover{
+    transform:translateY(-8px);
+}
+
+/* ==========================
+   SCROLLBAR
+========================== */
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:var(--primary);
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-track{
+    background:#F1F5F9;
+}
+
+/* ==========================
+   SELECTION
+========================== */
+
+::selection{
+    background:var(--primary);
+    color:white;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media (max-width:992px){
+
+.section-title{
+    font-size:42px;
+}
+
+section{
+    padding:80px 0;
+}
+
+}
+
+@media (max-width:768px){
+
+.section-title{
+    font-size:34px;
+}
+
+.container{
+    width:92%;
+}
+
+section{
+    padding:70px 0;
+}
+
+.primary-btn,
+.secondary-btn{
+    width:100%;
+    justify-content:center;
+}
+
+}
+
+@media (max-width:480px){
+
+.section-title{
+    font-size:30px;
+}
+
+.small-heading{
+    font-size:13px;
+    letter-spacing:1px;
+}
+
+}

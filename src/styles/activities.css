@@ -1,0 +1,52 @@
+.activities-section{
+
+background:#FAFAFA;
+
+}
+
+.activity-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+margin-top:60px;
+
+}
+
+.activity-card{
+
+background:white;
+padding:35px;
+border-radius:20px;
+transition:.35s;
+border:1px solid #ECECEC;
+transition:0.35s;
+cursor:pointer;
+
+}
+
+.activity-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,0.08);
+}
+
+.activity-icon{
+
+font-size:40px;
+color:#4F7DF3;
+margin-bottom:20px;
+
+}
+
+.activity-card h3{
+
+margin-bottom:15px;
+
+}
+
+.activity-card p{
+
+color:#6B7280;
+line-height:1.8;
+
+}

@@ -1,0 +1,66 @@
+.certifications-section{
+
+    background:white;
+
+}
+
+.certification-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    margin-top:60px;
+
+}
+
+.certificate-card{
+
+    background:#FAFAFA;
+    border:1px solid #ECECEC;
+    border-radius:20px;
+    padding:35px;
+    transition:.35s;
+    text-align:center;
+    transition:.35s ease;
+cursor:pointer;
+
+}
+
+.certificate-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,0.08);
+}
+
+.award-icon{
+
+    font-size:42px;
+    color:#4F7DF3;
+    margin-bottom:20px;
+
+}
+
+.certificate-card h3{
+
+    font-size:22px;
+    margin-bottom:12px;
+    color:#111827;
+
+}
+
+.certificate-card p{
+
+    color:#6B7280;
+    margin-bottom:15px;
+
+}
+
+.certificate-card span{
+
+    display:inline-block;
+    background:#EEF4FF;
+    color:#4F7DF3;
+    padding:8px 16px;
+    border-radius:50px;
+    font-weight:600;
+
+}

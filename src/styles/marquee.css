@@ -1,0 +1,39 @@
+.marquee-section{
+    background:#fff;
+    border-top:1px solid #ececec;
+    border-bottom:1px solid #ececec;
+    overflow:hidden;
+    padding:18px 0;
+}
+
+.marquee{
+    overflow:hidden;
+    white-space:nowrap;
+}
+
+.track{
+    display:inline-flex;
+    animation:scroll 30s linear infinite;
+}
+
+.track span{
+    margin-right:40px;
+    font-weight:600;
+    font-size:16px;
+    color:#111827;
+    letter-spacing:1px;
+}
+
+.star{
+    color:#4F7DF3;
+    margin-left:12px;
+}
+
+@keyframes scroll{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-50%);
+    }
+}
