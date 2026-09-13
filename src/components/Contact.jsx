@@ -74,7 +74,7 @@ function Contact() {
               LinkedIn
             </a>
 
-            <a href="/resume.pdf" className="primary-btn" download>
+            <a href="/Mansi_Nair_Resume.pdf" className="primary-btn" download>
               <FaFileDownload />
               Resume
             </a>

@@ -12,7 +12,6 @@ function Marquee() {
     "REQUIREMENT ANALYSIS",
     "PYTHON",
     "UI ENGINEERING",
-    "JAVA",
     "RESPONSIVE DESIGN",
     "API INTEGRATION",
   ];

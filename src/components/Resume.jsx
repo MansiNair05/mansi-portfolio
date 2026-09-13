@@ -14,7 +14,7 @@ function Resume() {
           projects, internships, and achievements.
         </p>
 
-        <a href="/resume.pdf" download className="primary-btn">
+        <a href="/Mansi_Nair_Resume.pdf" download className="primary-btn">
           <FaDownload />
           &nbsp;Download Resume
         </a>

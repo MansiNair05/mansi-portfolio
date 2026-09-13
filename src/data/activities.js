@@ -8,6 +8,7 @@ const activities = [
     title: "HackEra Hackathon Participant",
     description:
       "Participated in HackEra, collaborating with peers to design and develop innovative solutions under time-bound hackathon challenges.",
+      certificate: "/certificates/hackera-certificate.jpg",
   },
   // {
   //   title: "Voluntary Blood Donor",

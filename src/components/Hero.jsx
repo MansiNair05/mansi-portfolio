@@ -19,13 +19,13 @@ function Hero() {
         <p className="hero-desc">{portfolioData.personal.subtitle}</p>
 
         <div className="hero-buttons">
-          <button className="primary-btn">
+          <a href="#projects" className="primary-btn">
             View Projects
             <FaArrowRight />
-          </button>
+          </a>
 
           <a
-            href="/resume.pdf"
+            href="/Mansi_Nair_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="secondary-btn"

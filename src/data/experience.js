@@ -1,10 +1,10 @@
 const experience = [
   {
     role: "Frontend Developer Intern",
-    company: "Hospital Management System",
+    company: "Innothoughts Systems Pvt. Ltd.",
     duration: "Dec 2024 – Jun 2025",
     description:
-      "Developed responsive React.js interfaces, integrated REST APIs, collaborated with the development team, and delivered assigned modules during a six-month internship.",
+      "Developed React.js UI components and implemented assigned features for a live healthcare project during a 6-month internship. Collaborated with the development team during testing, integration, and UI/UX improvements activities.",
   },
   {
     role: "Project Coordinator – Digital Presence Website",

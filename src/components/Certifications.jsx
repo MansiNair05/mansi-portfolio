@@ -24,6 +24,16 @@ function Certifications() {
               <p>{item.provider}</p>
 
               <span>{item.year}</span>
+              {item.certificate && (
+                <a
+                  href={item.certificate}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="certificate-link"
+                >
+                  View Certificate
+                </a>
+              )}
             </div>
           ))}
         </div>

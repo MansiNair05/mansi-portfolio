@@ -18,6 +18,17 @@ function Activities() {
               <h3>{item.title}</h3>
 
               <p>{item.description}</p>
+
+              {item.certificate && (
+                <a
+                  href={item.certificate}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="certificate-link"
+                >
+                  View Certificate
+                </a>
+              )}
             </div>
           ))}
         </div>
