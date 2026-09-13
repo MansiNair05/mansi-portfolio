@@ -15,7 +15,7 @@ const portfolioData = {
   about: {
     heading: "Bridging technology, people, and business.",
     description:
-      "I am currently pursuing my Master of Computer Applications (MCA) with hands-on experience in frontend development and project coordination. My technical background helps me understand how software is built, while my passion lies in business analysis, data-driven insights, project management, and collaborating with cross-functional teams to deliver impactful solutions. I enjoy turning ideas into practical outcomes by combining technology with effective communication and strategic thinking.",
+      "I am currently pursuing my Master of Computer Applications (MCA) with hands-on experience in frontend development and exposure to MERN stack projects, along with experience in project coordination. My technical background helps me understand how software is built, while my interests lie in business analysis, data-driven insights, project management, and collaborating with teams to deliver practical solutions. I enjoy combining technology, communication, and strategic thinking to turn ideas into meaningful outcomes.",
   },
   stats: [
     {
