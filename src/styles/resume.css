@@ -1,12 +1,12 @@
 .resume-section{
-    background:white;
+    background:var(--card-bg);
     text-align:center;
 }
 
 .resume-text{
     max-width:700px;
     margin:25px auto 40px;
-    color:#6B7280;
+    color:var(--text);
     line-height:1.8;
     font-size:18px;
 }

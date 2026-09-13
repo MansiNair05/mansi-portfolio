@@ -1,69 +1,104 @@
-.navbar {
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 22px 8%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: white;
-  z-index: 1000;
-  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.06);
+.navbar{
+    position:sticky;
+    top:0;
+    left:0;
+    width:100%;
+    padding:22px 8%;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:var(--navbar-bg);
+    z-index:1000;
+
+    box-shadow:0 3px 20px var(--navbar-shadow);
+
+    transition:
+        background-color 0.3s ease,
+        box-shadow 0.3s ease;
 }
 
-.logo {
-  font-size: 30px;
-  font-weight: 700;
-  color: #111827;
+.logo{
+    font-size:30px;
+    font-weight:700;
+    color:var(--dark);
 }
 
-.logo span {
-  color: #4f7df3;
+.logo span{
+    color:var(--primary);
 }
 
-.nav-links {
-  display: flex;
-  gap: 35px;
+.nav-links{
+    display:flex;
+    gap:35px;
+    align-items:center;
 }
 
-.nav-links li {
-  list-style: none;
+.nav-links li{
+    list-style:none;
 }
 
-.nav-links a {
-  color: #111827;
-  font-weight: 500;
-  transition: 0.3s;
+.nav-links a{
+    color:var(--dark);
+    font-weight:500;
+    transition:0.3s;
 }
 
-.nav-links a:hover {
-  color: #4f7df3;
+.nav-links a:hover{
+    color:var(--primary);
 }
 
-.menu-btn {
-  display: none;
-  font-size: 28px;
-  cursor: pointer;
+.theme-toggle{
+    border:none;
+    background:transparent;
+    color:var(--dark);
+
+    font-size:20px;
+    cursor:pointer;
+    padding:4px;
+
+    transition:
+        transform 0.3s ease,
+        color 0.3s ease;
 }
 
-@media (max-width: 768px) {
-  .menu-btn {
-    display: block;
-  }
+.theme-toggle:hover{
+    transform:scale(1.15);
+    color:var(--primary);
+}
 
-  .nav-links {
-    position: absolute;
-    top: 80px;
-    left: -100%;
-    width: 100%;
-    background: white;
-    flex-direction: column;
-    padding: 30px;
-    transition: 0.4s;
-  }
+.menu-btn{
+    display:none;
+    font-size:28px;
+    cursor:pointer;
+    color:var(--dark);
+}
 
-  .nav-links.active {
-    left: 0;
-  }
+@media (max-width:768px){
+
+    .menu-btn{
+        display:block;
+    }
+
+    .nav-links{
+        position:absolute;
+        top:80px;
+        left:-100%;
+
+        width:100%;
+
+        background:var(--navbar-bg);
+
+        flex-direction:column;
+        padding:30px;
+
+        transition:0.4s;
+
+        box-shadow:0 10px 20px var(--navbar-shadow);
+    }
+
+    .nav-links.active{
+        left:0;
+    }
 }

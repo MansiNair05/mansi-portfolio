@@ -12,6 +12,10 @@ html{
     scroll-behavior:smooth;
 }
 
+/* ==========================
+   THEME VARIABLES
+========================== */
+
 :root{
     --primary:#4F7DF3;
     --primary-light:#EEF4FF;
@@ -23,7 +27,29 @@ html{
     --section:#F8FAFC;
     --border:#E5E7EB;
 
+    --navbar-bg:#FFFFFF;
+    --card-bg:#FFFFFF;
+    --navbar-shadow:rgba(0,0,0,0.06);
+
     --shadow:0 12px 40px rgba(0,0,0,0.08);
+}
+
+[data-theme="dark"]{
+    --primary:#6F95FF;
+    --primary-light:#1E293B;
+
+    --dark:#F8FAFC;
+    --text:#CBD5E1;
+
+    --white:#FFFFFF;
+    --section:#0F172A;
+    --border:#334155;
+
+    --navbar-bg:#111827;
+    --card-bg:#1E293B;
+    --navbar-shadow:rgba(0,0,0,0.25);
+
+    --shadow:0 12px 40px rgba(0,0,0,0.25);
 }
 
 /* ==========================
@@ -36,6 +62,10 @@ body{
     color:var(--dark);
     overflow-x:hidden;
     line-height:1.6;
+
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
 }
 
 /* ==========================
@@ -132,7 +162,7 @@ section{
     border:2px solid var(--primary);
 
     color:var(--primary);
-    background:white;
+    background:var(--card-bg);
 
     font-weight:600;
     transition:all .35s ease;
@@ -182,7 +212,7 @@ section{
 }
 
 ::-webkit-scrollbar-track{
-    background:#F1F5F9;
+    background:var(--section);
 }
 
 /* ==========================
@@ -195,52 +225,76 @@ section{
 }
 
 /* ==========================
+   THEME TRANSITION
+========================== */
+
+.navbar,
+.marquee-section,
+.activity-card,
+.certificate-card,
+.project,
+.education-card,
+.timeline-content,
+.stat-card,
+.skill-card,
+.resume-section,
+.contact-right form,
+.contact-right input,
+.contact-right textarea{
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        border-color 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+/* ==========================
    RESPONSIVE
 ========================== */
 
 @media (max-width:992px){
 
-.section-title{
-    font-size:42px;
-}
+    .section-title{
+        font-size:42px;
+    }
 
-section{
-    padding:80px 0;
-}
+    section{
+        padding:80px 0;
+    }
 
 }
 
 @media (max-width:768px){
 
-.section-title{
-    font-size:34px;
-}
+    .section-title{
+        font-size:34px;
+    }
 
-.container{
-    width:92%;
-}
+    .container{
+        width:92%;
+    }
 
-section{
-    padding:70px 0;
-}
+    section{
+        padding:70px 0;
+    }
 
-.primary-btn,
-.secondary-btn{
-    width:100%;
-    justify-content:center;
-}
+    .primary-btn,
+    .secondary-btn{
+        width:100%;
+        justify-content:center;
+    }
 
 }
 
 @media (max-width:480px){
 
-.section-title{
-    font-size:30px;
-}
+    .section-title{
+        font-size:30px;
+    }
 
-.small-heading{
-    font-size:13px;
-    letter-spacing:1px;
-}
+    .small-heading{
+        font-size:13px;
+        letter-spacing:1px;
+    }
 
 }

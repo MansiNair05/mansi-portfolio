@@ -1,52 +1,40 @@
 .activities-section{
-
-background:#FAFAFA;
-
+    background:var(--section);
 }
 
 .activity-grid{
-
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-gap:30px;
-margin-top:60px;
-
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+    margin-top:60px;
 }
 
 .activity-card{
-
-background:white;
-padding:35px;
-border-radius:20px;
-transition:.35s;
-border:1px solid #ECECEC;
-transition:0.35s;
-cursor:pointer;
-
+    background:var(--card-bg);
+    padding:35px;
+    border-radius:20px;
+    border:1px solid var(--border);
+    transition:0.35s ease;
+    cursor:pointer;
 }
 
 .activity-card:hover{
     transform:translateY(-10px);
-    box-shadow:0 20px 40px rgba(0,0,0,0.08);
+    box-shadow:var(--shadow);
 }
 
 .activity-icon{
-
-font-size:40px;
-color:#4F7DF3;
-margin-bottom:20px;
-
+    font-size:40px;
+    color:var(--primary);
+    margin-bottom:20px;
 }
 
 .activity-card h3{
-
-margin-bottom:15px;
-
+    margin-bottom:15px;
+    color:var(--dark);
 }
 
 .activity-card p{
-
-color:#6B7280;
-line-height:1.8;
-
+    color:var(--text);
+    line-height:1.8;
 }
