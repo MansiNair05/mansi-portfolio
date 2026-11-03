@@ -1,5 +1,5 @@
 import "../styles/hero.css";
-import profile from "../assets/images/profile_Animated.jpg";
+import profile from "../assets/images/profile_Animated.png";
 import { FaArrowRight, FaDownload } from "react-icons/fa";
 import portfolioData from "../data/portfolioData";
 

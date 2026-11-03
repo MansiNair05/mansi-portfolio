@@ -1,4 +1,5 @@
 import hospital from "../assets/projects/hospital.png";
+import superstore from "../assets/projects/superstore.png";
 import wonderlog from "../assets/projects/wonderlog.png";
 import dairy from "../assets/projects/dairy.png";
 import grey from "../assets/projects/grey.png";
@@ -14,6 +15,17 @@ const projects = [
 
     buttonText: "Internship Letter",
     demo: "/internship-letter.pdf",
+  },
+
+  {
+    title: "Superstore Sales Analysis",
+    duration: "Data Analytics Project",
+    description:
+      "Analyzed retail sales data using Python and Pandas for data cleaning and exploratory analysis. Developed interactive Power BI dashboards to track key performance indicators, evaluate sales and profitability, compare regional and category performance, and identify business insights to support data-driven decisions.",
+    technologies: ["Python", "Pandas", "Excel", "Power BI", "Data Visualization"],
+    image: superstore,
+    buttonText: "",
+    demo: "",
   },
 
   {
